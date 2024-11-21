@@ -1,0 +1,14 @@
+<!DOCTYPE bookstore [
+    <!ELEMENT bookstore (book+)>
+    <!ELEMENT book (author, title)>
+    <!ELEMENT author (#PCDATA)>
+    <!ELEMENT title (#PCDATA)>
+    <!ELEMENT book id ID (#REQUIRED)>
+]>
+
+<bookstore>
+    <book id="02">
+        <author>Aditya</author>
+        <title>My days</title>
+    </book>
+</bookstore>

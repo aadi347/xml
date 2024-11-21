@@ -1,0 +1,19 @@
+<bookstore>
+    <book>
+        <author>Aditya Kumar</author>
+        <title>Good Morning</title>
+        <year>2024</year>
+    </book>
+
+    <book>
+        <author>Kumar Aditya</author>
+        <title>Evening</title>
+        <year>2025</year>
+    </book>
+</bookstore>
+
+
+<!-- DOM codes to manipluate the title of the first Boook -->
+
+
+<!-- xmlDoc.getElementsByTagName("title")[0].childNode[0].nodeValue = "Author Updated" -->
